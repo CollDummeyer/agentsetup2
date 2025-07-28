@@ -1,2 +1,14 @@
 ipykernel
 python-dotenv
+openai 
+anthropic 
+pandas 
+matplotlib 
+plotly 
+ipython 
+langchain 
+langchain_anthropic 
+langchain_openai 
+langchain_experimental
+langchain-community
+tabulate
