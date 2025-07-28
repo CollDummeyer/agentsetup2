@@ -123,8 +123,15 @@ agentsetup2/
 │   │   └── pandas_agent.py # Andy's core analysis engine
 │   ├── tools/
 │   │   └── charts_and_graphs.py # Visualization tools
-│   └── prompts/
-│       └── system_message.py    # Andy's personality
+│   ├── prompts/
+│   │   └── system_message.py    # Andy's personality
+│   └── streamlit_utils/    # 📦 Modular UI components
+│       ├── __init__.py
+│       ├── session_manager.py   # Session state management
+│       ├── data_handler.py      # Data loading utilities
+│       ├── andy_interface.py    # Andy interaction functions
+│       ├── image_utils.py       # Image handling utilities
+│       └── ui_components.py     # UI styling and components
 ├── data/
 │   ├── sample_sales_data.csv    # Sample data for testing
 │   └── processed/          # Auto-saved charts location

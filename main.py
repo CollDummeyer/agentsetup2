@@ -3,8 +3,6 @@ import pandas as pd
 from dotenv import load_dotenv
 from langchain.memory import ConversationBufferWindowMemory
 from src.models.pandas_agent import create_andy_the_analyst
-import sys
-from pathlib import Path
 
 # Load environment variables
 load_dotenv()
