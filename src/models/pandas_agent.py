@@ -6,7 +6,6 @@ from src.tools.charts_and_graphs import (
     create_scatter_plot,
 )
 from src.prompts.system_message import ANDY_SYSTEM_PROMPT
-import pandas as pd
 from dotenv import load_dotenv
 import os
 

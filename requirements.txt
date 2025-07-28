@@ -12,3 +12,5 @@ langchain_openai
 langchain_experimental
 langchain-community
 tabulate
+streamlit
+openpyxl
